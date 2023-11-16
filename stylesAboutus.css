@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(140, 175, 215);
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(113, 1, 1, 0.1);
+    border-radius: 8px;
+}
+
+.mainhead {
+    color: rgb(30, 50, 70);
+    font-size: 40px;
+    padding: 0% 35%;
+}
+
+.about-us h3 {
+    color: #4CAF50;
+}
+
+.about-us p {
+    line-height: 1.5;
+}
+
+hr {
+    border: 1px solid #4CAF50;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
