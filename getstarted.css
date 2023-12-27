@@ -1,0 +1,71 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+}
+
+.back {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 2rem;
+    color:#000000;
+    padding: 15px;
+    padding-right: 35px;
+    background-color: rgb(173, 226, 93);
+    text-decoration: none;
+    border-radius: 25px;
+    
+}
+.back:hover {
+    background-color: rgba(173, 226, 93, 0.5);
+}
+
+.question {
+    background-color: rgb(173, 226, 93);
+    
+    margin: 10% 24% 0% 24%;
+    font-size: 2.5rem;
+    color:#000000;
+    border-radius: 10px;
+    padding: 3rem;
+    padding-right: 5rem;
+    justify-content: center;
+}
+
+.science {
+    background-color: rgb(173, 226, 93);
+    margin-left: 24.1%;
+    font-size: 2rem;
+    color: #000000;
+    border-radius: 10px;
+    padding: 3.35rem;
+    text-align: center;
+    font-weight: 600;    
+}
+
+.commerce {
+    background-color: rgb(173, 226, 93);
+    font-size: 2rem;
+    color: #000000;
+    border-radius: 10px;
+    padding: 3.35rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.humanities {
+    background-color: rgb(173, 226, 93);
+    font-size: 2rem;
+    color: #000000;
+    border-radius: 10px;
+    padding: 3.35rem;
+    text-align: center;
+    font-weight: 600;
+}
+button:hover  {
+    background-color: rgba(173, 226, 93, 0.5);
+}
+
