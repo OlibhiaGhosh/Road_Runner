@@ -5,7 +5,7 @@
     line-height: 1.5;
 } 
 body {
-    background-color: #19323d;
+    background-color: #2B312C;
 }
 
 .back {
@@ -14,17 +14,16 @@ body {
     font-size: 2rem;
     color:#000000;
     padding: 0px;
-    background-color: #03a6c9;
+    background-color: rgb(173, 226, 93);
     text-decoration: none;
     border-radius: 5px;
     
 }
 .back:hover {
-    background-color: rgba(3, 166, 201, 0.5);
+    background-color: rgba(173, 226, 93, 0.5);
 }
-
 .question {
-    background-color: #04a2c3;
+    background-color:rgb(173, 226, 93);
     margin: 0% 25% 0% 25%;
     font-size: 2.5rem;
     color:#000000;
@@ -39,8 +38,8 @@ body {
 }
 
 .science {
-    background-color: #04a2c3;
-    color: #FFFFFF;
+    background-color: rgb(173, 226, 93);
+    color: #000000;
     font-family: sans-serif;
     font-weight: 300; 
     line-height: 1.6; 
@@ -59,8 +58,8 @@ body {
 }
 
 .commerce {
-    background-color: #04a2c3;
-    color: #FFFFFF;
+    background-color: rgb(173, 226, 93);
+    color: #000;
     font-family: sans-serif;
     font-weight: 300; 
     line-height: 1.6; 
@@ -79,8 +78,8 @@ body {
 }
 
 .humanities {
-    background-color: #04a2c3;
-    color: #FFFFFF;
+    background-color: rgb(173, 226, 93);
+    color: #000;
     font-family: sans-serif;
     font-weight: 300; 
     line-height: 1.6; 
@@ -94,6 +93,6 @@ body {
     margin: 1% 25% 1% 25%;
 }
 button:hover  {
-    background-color: rgba(3, 166, 201, 0.5);
+    background-color: rgba(173, 226, 93, 0.5);
 }
 
