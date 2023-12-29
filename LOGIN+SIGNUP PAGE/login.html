@@ -19,12 +19,21 @@
             <br><br><input type="checkbox" name="checkbox" id="checkbox">
                <label for="checkbox">Remember me</label>
                <span ><a href="" style="color: rgb(188, 230, 240);">Forgot Password?</a></span>
-            <br><br><button type="submit" class="button"><a href="/index.html"><b>SIGN IN</b></a></button>
+            <br><br><button class="button"  onclick="redirectToIndex()" ><b>SIGN IN</b></button>
             
             </form>
 
             
         </div>
+        <script>
+            function redirectToIndex() {
+                // Redirect to index.html
+                window.location.href = '../index.html';
+                // Prevent default form submission
+                event.preventDefault();
+                return false;
+            }
+        </script>
         <br><p>New to Roadrunner? <nbsp></nbsp><nbsp></nbsp> <a href="./signup.html" style="color: rgb(188, 230, 240);">SignUp</a></p>
     </div>
 </body>
