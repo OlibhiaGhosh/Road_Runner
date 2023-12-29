@@ -5,6 +5,7 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: #121412;
+    flex-direction: column;
 }
 @media (max-width: 640px){
     .main{
@@ -64,4 +65,17 @@ input , label {
     height: 1.8rem;
     width: 23rem;
 }
-
+header {
+    align-self: flex-start;
+}
+.back {
+    /* Additional styles for the back button */
+    position: absolute; /* Position the button absolutely */
+    top: 10px; /* Distance from the top */
+    left: 10px; /* Distance from the left */
+    height: 5vh;
+    width: 100px;
+    
+    background-color: #ADE25D;
+    color: #2B312C;
+}
