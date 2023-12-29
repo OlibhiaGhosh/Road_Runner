@@ -16,3 +16,7 @@ li{
     list-style: none;
     padding: 12px;
 }
+body {
+    background-color: #2B312C;
+    color: #ADE25D;
+}
