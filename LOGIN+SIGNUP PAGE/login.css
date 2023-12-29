@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121412;
+}
+@media (max-width: 640px){
+    .main{
+        padding :0.5rem;
+
+    }
+    .box{
+        margin-right: 1rem;
+    }
+}
+    
+  
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ADE25D;
+    font-size: 20px;
+    
+    
+}
+
+.main{
+    width:fit-content;
+    border: 2px solid;
+    background-color: #2B312C;
+    padding: 1.5rem;
+    /* margin: auto; */
+}
+form{
+    padding-top: 1rem;
+}
+
+
+span{
+    padding-left: 22%;
+}
+
+.button{
+    margin-left:28%;
+    margin-top: 20px;
+    background-color: #ADE25D;
+    width: 40%;
+    height:40px;
+    
+}
+input{
+    background-color: #abd073;
+    
+}
+input , label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Username, #Password {
+    height: 1.8rem;
+    width: 23rem;
+}
+
