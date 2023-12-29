@@ -5,6 +5,7 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: #121412;
+    flex-direction: column;
 }
   
 .box{
@@ -69,4 +70,18 @@ input{
     height: 1.8rem;
     width: 17.5rem;
     background-color: #abd073;
+}
+header {
+    align-self: flex-start;
+}
+.back {
+    /* Additional styles for the back button */
+    position: absolute; /* Position the button absolutely */
+    top: 10px; /* Distance from the top */
+    left: 10px; /* Distance from the left */
+    height: 5vh;
+    width: 100px;
+    
+    background-color: #ADE25D;
+    color: #2B312C;
 }
